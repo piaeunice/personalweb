@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Caibigan | Personal Website</title>
+        <link rel="icon" type="image/jpeg" href="./images/logo_2.jpg">
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link rel="stylesheet" href="styles.css" />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+
+        <!-- Bootstrap Icons CDN -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+        />
+
+        <!-- SweetAlert CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    </head>
+
+    <body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="80" tabindex="0">
+        <!-- Navigation Bar -->
+        <header>
+          <nav class="navbar navbar-expand-lg navbar-dark fixed-top px-5">
+            <div class="container-fluid">
+              <!-- Logo and Brand -->
+              <a class="navbar-brand d-flex align-items-center" href="#home">
+                <img src="images/logo.jpg" alt="Logo" class="me-2" style="height: 40px;" />
+                <span>
+                  <strong>Pia</strong> 
+                  <strong><span style="color: #FF9999;">Caibigan</span></strong>
+                </span>
+              </a>
+
+              <!-- Toggler button -->
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="custom-toggler">
+                  <span class="toggler-line top-line"></span>
+                  <span class="toggler-line middle-line"></span>
+                  <span class="toggler-line bottom-line"></span>
+                </span>
+              </button>
+
+              <!-- Collapsible Menu -->
+              <div class="collapse navbar-collapse" id="navbarNav"> 
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#home"><span>Home</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about"><span>About</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills"><span>Skills</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects"><span>Projects</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#blog"><span>Articles</span></a>
+                  </li>                
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact"><span>Contact</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+  
+        <!-- HOME -->
+        <section class="home" id="home">
+            <canvas id="particleCanvas"></canvas>
+            <div class="container position-relative z-1">
+                <div class="row align-items-center">
+                    <!-- Text Content (Left) -->
+                    <div class="col-12 col-sm-12 col-md-7 col-lg-7 text-center text-md-start order-2 order-md-1">
+                        <div class="text-content p-3">
+                            <h4 class="welcome-text">Welcome to my digital space! I am</h4>
+                            <h1 class="main-title">Pia Eunice Joi</h1>
+                            <div class="static-text">
+                                <p class="text-white">A 2nd year BSIT student with a growing passion for technology, web development, and creating digital solutions. Continuously learning and exploring the evolving world of IT, with a goal of building innovative projects that make an impact.</p>
+                            </div>
+                            <div class="social-icons my-4">
+                                <a href="https://www.facebook.com/piaeunicejoi" class="social-link"><i class="bi bi-facebook"></i></a>
+                                <a href="https://www.instagram.com/piaeunicejoi/" class="social-link"><i class="bi bi-instagram"></i></a>
+                                <a href="https://github.com/piaeunice" class="social-link"><i class="bi bi-github"></i></a>
+                                <a href="https://www.linkedin.com/in/pia-eunice-joi-caibigan-b0ba5535b/" class="social-link"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                            <div class="d-flex flex-column flex-md-row gap-3">
+                                <a href="#about" class="btn neon-btn learn-more">Discover More</a>
+                                <a href="#contact" class="btn neon-btn contact-me">Get in Touch</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Image (Right) -->
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-5 text-center order-1 order-md-2">
+                        <div class="image-content p-3">
+                            <div class="circle-frame mx-auto rounded-circle">
+                                <img src="./images/pia.jpg" class="profile-img rounded-circle" alt="Profile Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-line"></div>
+
+        <!-- ABOUT -->
+        <section class="about reveal-on-scroll" id="about">
+            <div class="container position-relative z-1">
+                <div class="row align-items-center">
+                    <!-- Image Content -->
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-4 text-center order-1 order-md-1">
+                        <div class="image-content p-3">
+                            <div class="circle-frame mx-auto rounded-circle">
+                                <img src="./images/me.jpg" alt="Profile Picture" class="profile-img rounded-circle img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Text Content -->
+                    <div class="col-12 col-sm-12 col-md-7 col-lg-8 text-center text-md-start order-2 order-md-2">
+                        <div class="text-content p-3">
+                            <h2 class="welcome-text my-4">About Me</h2>
+                            <h1 class="main-title mb-2">Get to Know Me</h1>
+                            <p class="text-white">
+                                I am a second-year Bachelor of Science in Information Technology (BSIT) student at NU Lipa. I am interested in web development and enjoy creating functional, engaging websites that enhance user experiences. Alongside my academic journey, I am also a writer who enjoys expressing thoughts and ideas through words.
+                            </p>
+                            <!-- Education and Certification Row -->
+                            <div class="row mt-4">
+                                <!-- Education -->
+                                <div class="col-12 col-md-9 education-section">
+                                    <h3 class="educ-sub-title">Education</h3>
+                                    <div class="row g-3 mt-3 education-row">
+                                        <!-- College -->
+                                        <div class="col-6 col-md-4 text-center education-item d-flex justify-content-center">
+                                            <div class="education-card rounded">
+                                                <div class="card-image">
+                                                    <img src="./images/education/nulipa.jpg" alt="NU Lipa" class="education-img img-fluid">
+                                                    <div class="card-title-overlay">
+                                                        <p class="educ-title">National University - Lipa</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card-description">
+                                                    <p class="educ-description">
+                                                        BS in Information Technology (ongoing).
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- High School -->
+                                        <div class="col-6 col-md-4 text-center education-item d-flex justify-content-center">
+                                            <div class="education-card rounded">
+                                                <div class="card-image">
+                                                    <img src="./images/education/canossa.jpg" alt="Canossa Academy" class="education-img img-fluid">
+                                                    <div class="card-title-overlay">
+                                                        <p class="educ-title">Canossa Academy - Lipa</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card-description">
+                                                    <p class="educ-description">
+                                                        Completed high school education.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Elementary -->
+                                        <div class="col-6 col-md-4 text-center education-item d-flex justify-content-center">
+                                            <div class="education-card rounded">
+                                                <div class="card-image">
+                                                    <img src="./images/education/sics.jpg" alt="St. Isidore Catholic School" class="education-img img-fluid">
+                                                    <div class="card-title-overlay">
+                                                        <p class="educ-title">St. Isidore Catholic School</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card-description">
+                                                    <p class="educ-description">
+                                                        Completed elementary education.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Certification -->
+                                <div class="col-12 col-md-3">
+                                    <h3 class="sub-title certification-title">Certification</h3>
+                                    <div class="row g-3 mt-3">
+                                        <div class="col-12 text-center certificate-item d-flex justify-content-center">
+                                            <div class="certificate-card rounded">
+                                                <div class="card-image">
+                                                    <img src="./images/IC3_Level1.png" alt="IC3 Certification" class="cert-img img-fluid">
+                                                    <div class="card-title-overlay">
+                                                        <p class="cert-title">IC3 GS6 Level 1</p>
+                                                    </div>
+                                                </div>
+                                                <div class="card-description">
+                                                    <p class="educ-description">
+                                                        Certified in digital literacy basics.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+          
+        <div class="section-line"></div>
+             
+        <!-- SKILLS -->
+        <section id="skills" class="skills">
+            <div class="container position-relative z-1">
+                <div class="row">
+                    <!-- Technical Skills -->
+                    <div class="col-12 col-md-6 technical-skills py-2">
+                        <h3 class="main-title mt-5 text-center">Technical Skills</h3>
+                        <div class="skill mb-4 text-center">
+                            <span>HTML & CSS</span>
+                            <div class="bar">
+                                <div style="width: 85%;">
+                                    <span>85%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill mb-4 text-center">
+                            <span>JavaScript</span>
+                            <div class="bar">
+                                <div style="width: 60%;">
+                                    <span>60%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill mb-4 text-center">
+                            <span>PHP & MySQL</span>
+                            <div class="bar">
+                                <div style="width: 80%;">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill mb-4 text-center">
+                            <span>Java</span>
+                            <div class="bar">
+                                <div style="width: 90%;">
+                                    <span>90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill mb-4 text-center">
+                            <span>C++</span>
+                            <div class="bar">
+                                <div style="width: 60%;">
+                                    <span>60%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Professional Skills -->
+                    <div class="col-12 col-md-6 professional-skills py-2">
+                        <h3 class="main-title mt-5 text-center">Professional Skills</h3>
+                        <div class="row">
+                            <div class="col-4 col-md-4 text-center mb-4">
+                                <div class="circle-skill">
+                                    <svg viewBox="0 0 100 100">
+                                        <defs>
+                                            <linearGradient id="circleGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+                                                <stop offset="0%" stop-color="#FF9999" />
+                                                <stop offset="100%" stop-color="#FFC1CC" />
+                                            </linearGradient>
+                                        </defs>
+                                        <circle cx="50" cy="50" r="45" class="background" />
+                                        <circle cx="50" cy="50" r="45" class="foreground" style="stroke-dashoffset: calc(282.6 * (1 - 0.9)); stroke: url(#circleGradient1);" />
+                                    </svg>
+                                    <span>90%</span>
+                                    <p>Attention to Detail</p>
+                                </div>
+                            </div>
+                            <div class="col-4 col-md-4 text-center mb-4">
+                                <div class="circle-skill">
+                                    <svg viewBox="0 0 100 100">
+                                        <circle cx="50" cy="50" r="45" class="background" />
+                                        <circle cx="50" cy="50" r="45" class="foreground" style="stroke-dashoffset: calc(282.6 * (1 - 0.92)); stroke: url(#circleGradient1);" />
+                                    </svg>
+                                    <span>92%</span>
+                                    <p>Leadership</p>
+                                </div>
+                            </div>
+                            <div class="col-4 col-md-4 text-center mb-4">
+                                <div class="circle-skill">
+                                    <svg viewBox="0 0 100 100">
+                                        <circle cx="50" cy="50" r="45" class="background" />
+                                        <circle cx="50" cy="50" r="45" class="foreground" style="stroke-dashoffset: calc(282.6 * (1 - 0.92)); stroke: url(#circleGradient1);" />
+                                    </svg>
+                                    <span>92%</span>
+                                    <p>Teamwork</p>
+                                </div>
+                            </div>
+                            <div class="col-4 col-md-4 text-center mb-4">
+                                <div class="circle-skill">
+                                    <svg viewBox="0 0 100 100">
+                                        <circle cx="50" cy="50" r="45" class="background" />
+                                        <circle cx="50" cy="50" r="45" class="foreground" style="stroke-dashoffset: calc(282.6 * (1 - 0.88)); stroke: url(#circleGradient1);" />
+                                    </svg>
+                                    <span>88%</span>
+                                    <p>Time Management</p>
+                                </div>
+                            </div>
+                            <div class="col-4 col-md-4 text-center mb-4">
+                                <div class="circle-skill">
+                                    <svg viewBox="0 0 100 100">
+                                        <circle cx="50" cy="50" r="45" class="background" />
+                                        <circle cx="50" cy="50" r="45" class="foreground" style="stroke-dashoffset: calc(282.6 * (1 - 0.88)); stroke: url(#circleGradient1);" />
+                                    </svg>
+                                    <span>88%</span>
+                                    <p>Adaptability</p>
+                                </div>
+                            </div>
+                            <div class="col-4 col-md-4 text-center mb-4">
+                                <div class="circle-skill">
+                                    <svg viewBox="0 0 100 100">
+                                        <circle cx="50" cy="50" r="45" class="background" />
+                                        <circle cx="50" cy="50" r="45" class="foreground" style="stroke-dashoffset: calc(282.6 * (1 - 0.9)); stroke: url(#circleGradient1);" />
+                                    </svg>
+                                    <span>90%</span>
+                                    <p>Problem Solving</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <h2 class="main-title2 mt-1 text-center">Tools</h2>
+                <div class="skills-grid d-flex flex-wrap justify-content-center gap-3">
+                    <div class="skill-card text-center"><img src="./images/skills/netbeans.png" alt="NetBeans">NetBeans</div>
+                    <div class="skill-card text-center"><img src="./images/skills/android.png" alt="Android Studio">Android Studio</div>
+                    <div class="skill-card text-center"><img src="./images/skills/vsc.webp" alt="Visual Studio Code">Visual Studio Code</div>
+                    <div class="skill-card text-center"><img src="./images/skills/git.webp" alt="Git">Git</div>
+                    <div class="skill-card text-center"><img src="./images/skills/github" alt="GitHub">GitHub</div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-line"></div>
+          
+        <!-- PROJECTS -->
+        <section class="projects" id="projects">
+          <div class="container position-relative z-1">
+              <h2 class="welcome-text text-center my-4">My Work</h2>
+              <h1 class="main-title text-center mb-5">Projects Showcase</h1>
+              <div class="row projects-grid g-4 mx-auto">
+                  <!-- Project 1 (NUFinds) -->
+                  <div class="col-12 col-md-6 col-lg-4">
+                      <div class="project-card">
+                          <img src="./images/projects/nufinds.jpg" class="project-img" alt="NUFinds">
+                          <div class="project-content p-3">
+                              <h3 class="project-title">NUFinds</h3>
+                              <p class="project-description">
+                                  A record-keeping mobile app designed to help users report and document lost items at NU Lipa.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- Project 2 (Personal Website) -->
+                  <div class="col-12 col-md-6 col-lg-4">
+                      <div class="project-card">
+                          <img src="./images/projects/portfolio.jpg" class="project-img" alt="Personal Website">
+                          <div class="project-content p-3">
+                              <h3 class="project-title">Personal Website</h3>
+                              <p class="project-description">
+                                  A personal hub to highlight what I do, what I am learning, and the things I am passionate about.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- Project 3 (Health First) -->
+                  <div class="col-12 col-md-6 col-lg-4">
+                      <div class="project-card">
+                          <img src="./images/projects/healthfirst.jpg" class="project-img" alt="Health First">
+                          <div class="project-content p-3">
+                              <h3 class="project-title">Health First</h3>
+                              <p class="project-description">
+                                  A mobile app designed to address some health challenges by offering features aimed at promoting a healthy lifestyle.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+
+        <div class="section-line"></div>
+
+        <!-- BLOG -->
+        <section id="blog" class="blog reveal-on-scroll">
+            <div class="container position-relative z-1">
+                <h2 class="welcome-text text-center my-4">My Thoughts</h2>
+                <h1 class="main-title text-center mb-5">Articles I Wrote</h1>
+                <div class="row blog-posts g-4 mx-auto">
+                    <!-- Blog Post 1 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="blog-card mx-auto">
+                            <img src="./images/articles/graduation" class="blog-img" alt="Looking Back So I Can Move Forward">
+                            <div class="blog-content p-3">
+                                <div class="blog-meta">
+                                    <span class="blog-date">December 18, 2024</span>
+                                    <span class="blog-author">By Pia Caibigan</span>
+                                </div>
+                                <p class="blog-description">
+                                    <strong>Looking Back So I Can Move Forward</strong> <br><br> Understanding past struggles and lessons as essential foundations for personal growth.
+                                </p>
+                                <a href="article1.html" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Blog Post 2 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="blog-card mx-auto">
+                            <img src="./images/articles/web" class="blog-img" alt="My Journey Into Web Development">
+                            <div class="blog-content p-3">
+                                <div class="blog-meta">
+                                    <span class="blog-date">February 10, 2025</span>
+                                    <span class="blog-author">By Pia Caibigan</span>
+                                </div>
+                                <p class="blog-description">
+                                    <strong>My Journey Into Web Development</strong> <br><br>A glimpse into how I discovered web development—what inspired me and the challenges I faced.
+                                </p>
+                                <a href="article2.html" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Blog Post 3 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="blog-card mx-auto">
+                            <img src="./images/articles/redgreen" class="blog-img" alt="UniTeam-porary">
+                            <div class="blog-content p-3">
+                                <div class="blog-meta">
+                                    <span class="blog-date">December 13, 2024</span>
+                                    <span class="blog-author">By Pia Caibigan</span>
+                                </div>
+                                <p class="blog-description">
+                                    <strong>UniTeam-porary Stability</strong> <br><br>An honest critique on populist politics and performative leadership in modern Philippine governance.
+                                </p>
+                                <a href="article3.html" class="read-more">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-line"></div>
+          
+        <!-- CONTACT -->
+        <section class="contact" id="contact">
+          <div class="container position-relative z-1">
+              <!-- Section Title -->
+              <h2 class="welcome-text text-center my-4">Let’s Connect</h2>
+              <h1 class="main-title text-center mb-5">Contact Me</h1>
+
+              <!-- Two-Column Layout -->
+              <div class="row contact-wrapper g-4">
+                  <!-- Contact Info (Left) -->
+                  <div class="col-12 col-lg-4">
+                      <div class="contact-info d-flex flex-column gap-3">
+                          <div class="info-card p-3">
+                              <i class="bi bi-telephone-fill"></i>
+                              <div class="info-content">
+                                  <strong>Phone</strong>
+                                  <p>+63 936 504 4595</p>
+                              </div>
+                          </div>
+                          <div class="info-card p-3">
+                              <i class="bi bi-envelope-fill"></i>
+                              <div class="info-content">
+                                  <strong>Mail</strong>
+                                  <p>caibiganpia@gmail.com</p>
+                              </div>
+                          </div>
+                          <div class="info-card p-3">
+                              <i class="bi bi-geo-alt-fill"></i>
+                              <div class="info-content">
+                                  <strong>Location</strong>
+                                  <p>Poblacion 4, Cuenca, Batangas</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- Contact Form (Right) -->
+                  <div class="col-12 col-lg-8">
+                      <div class="form-panel p-4">
+                          <form id="contact" class="contact-form needs-validation d-flex flex-column gap-3">
+                              <div class="row g-3">
+                                  <div class="col-12 col-md-6 form-group">
+                                      <span class="form-label">Name</span>
+                                      <input type="text" class="form-control" id="name" required>
+                                  </div>
+                                  <div class="col-12 col-md-6 form-group">
+                                      <span class="form-label">Email</span>
+                                      <input type="email" class="form-control" id="email" required>
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <span class="form-label">Message</span>
+                                  <textarea class="form-control" id="message" rows="6" required></textarea>
+                              </div>
+                              <button type="submit" class="btn-send">Send Message</button>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2025 Pia Caibigan. All rights reserved.</p>
+        </footer>
+          
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- SweetAlert2 Script -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        <!-- Your Custom Script -->
+        <script src="script.js"></script>
+    </body>
+</html>
