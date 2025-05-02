@@ -49,7 +49,7 @@ Have ideas, feedback, or want to collaborate?
 Whether it’s refining the layout, optimizing performance, or suggesting a new feature — your contributions are welcome and appreciated!
 
 ## 🙋‍♀️ Author
-Pia Eunice Joi M. Caibigan
-2nd Year BS Information Technology Student
-📧 Email: caibiganpm@students.nu-lipa.edu.ph | caibiganpia@gmail.com
+Pia Eunice Joi M. Caibigan <br/>
+2nd Year BS Information Technology Student <br/>
+📧 Email: caibiganpm@students.nu-lipa.edu.ph | caibiganpia@gmail.com <br/>
 🌐 Personal Website: https://piaeunice.github.io/personalweb/
