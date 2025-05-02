@@ -1732,10 +1732,16 @@ circle.foreground {
     padding: 14px 12px;
 }
 
+.contact-form .btn-container {
+    display: flex;
+    justify-content: center;
+}
+
 .contact-form .btn-send {
     background: transparent;
     border: 2px solid #FFC1CC;
     color: #FFC1CC;
+    width: 350px;
     font-weight: 700;
     padding: 12px 30px;
     border-radius: 20px;
