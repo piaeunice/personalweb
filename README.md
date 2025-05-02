@@ -42,10 +42,10 @@ The site is composed of the following sections, each designed with clear layout 
 3. No backend or server setup needed — this is fully front-end.
 
 ## 🤝 Contributing
-Have ideas, feedback, or want to collaborate?
+Have ideas, feedback, or want to collaborate? Whether you’re looking to improve the layout, optimize performance, or suggest a new feature, your contributions are welcome and appreciated!
 - Feel free to fork this repository and submit a pull request with suggestions, improvements, or fixes.
 - You can also open an issue for bugs, enhancement ideas, or layout feedback.
-- Use the contact form on the website or connect with me via the social media links provided there. <br/><br/>Whether it’s refining the layout, optimizing performance, or suggesting a new feature — your contributions are welcome and appreciated!
+- Use the contact form on the website or connect with me via the social media links provided there.
 
 ## 🙋‍♀️ Author
 Pia Eunice Joi M. Caibigan <br/>
