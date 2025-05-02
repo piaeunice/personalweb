@@ -48,6 +48,8 @@ class Particle {
         // Random horizontal and vertical speed
         this.speedX = Math.random() * 1 - 0.5;
         this.speedY = Math.random() * 1 - 0.5;
+        // Randomly assign a shape (0: Crescent, 1: Planet Ring, 2: Asteroid, 3: Star)
+        this.shape = Math.floor(Math.random() * 4);
     }
 
     // Update particle position and handle boundary bounce
@@ -60,12 +62,56 @@ class Particle {
         if (this.y < 0 || this.y > canvas.height) this.speedY *= -1;
     }
 
-    // Draw the particle as a semi-transparent pink circle
+    // Draw the particle based on its assigned shape
     draw() {
-        ctx.fillStyle = 'rgba(255, 153, 153, 0.5)';
+        ctx.fillStyle = 'rgba(255, 153, 153, 0.5)'; // Pink color with transparency
         ctx.beginPath();
-        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-        ctx.fill();
+
+        const size = this.size * 1.5; // Base size for all shapes
+
+        if (this.shape === 0) { // Crescent Moon
+            const offset = size * 0.6;
+            ctx.arc(this.x - offset / 2, this.y, size, 0, Math.PI * 2); // Full moon
+            ctx.globalCompositeOperation = 'destination-out'; // Cut out inner arc
+            ctx.arc(this.x + offset / 2, this.y, size * 0.7, 0, Math.PI * 2); // Inner cutout
+            ctx.fill();
+            ctx.globalCompositeOperation = 'source-over'; // Reset composite operation
+        } else if (this.shape === 1) { // Planet Ring
+            const innerSize = size * 0.6;
+            ctx.arc(this.x, this.y, size, 0, Math.PI * 2); // Outer ring
+            ctx.globalCompositeOperation = 'destination-out'; // Cut out inner circle
+            ctx.arc(this.x, this.y, innerSize, 0, Math.PI * 2); // Inner planet
+            ctx.fill();
+            ctx.globalCompositeOperation = 'source-over'; // Reset composite operation
+        } else if (this.shape === 2) { // Asteroid
+            const sides = Math.floor(Math.random() * 3) + 6; // 6 to 8 sides
+            for (let i = 0; i < sides; i++) {
+                const angle = (i / sides) * Math.PI * 2;
+                const radius = size * (0.8 + Math.random() * 0.4); // Random radius for irregularity
+                const x = this.x + Math.cos(angle) * radius;
+                const y = this.y - Math.sin(angle) * radius; // Subtract for canvas y-axis
+                if (i === 0) ctx.moveTo(x, y);
+                else ctx.lineTo(x, y);
+            }
+            ctx.closePath();
+            ctx.fill();
+        } else if (this.shape === 3) { // Star
+            const innerSize = size * 0.5;
+            for (let i = 0; i < 5; i++) {
+                const angle = (Math.PI / 2) + (i * 2 * Math.PI / 5);
+                const x = this.x + Math.cos(angle) * size;
+                const y = this.y - Math.sin(angle) * size; // Subtract for canvas y-axis
+                ctx.lineTo(x, y);
+                const innerAngle = (Math.PI / 2) + (i * 2 * Math.PI / 5) + (Math.PI / 5);
+                const innerX = this.x + Math.cos(innerAngle) * innerSize;
+                const innerY = this.y - Math.sin(innerAngle) * innerSize;
+                ctx.lineTo(innerX, innerY);
+            }
+            ctx.closePath();
+            ctx.fill();
+        }
+
+        ctx.closePath(); // Ensure path is closed if needed
     }
 }
 
