@@ -79,10 +79,10 @@ function initParticles() {
 
 // Animation loop: clears the canvas, updates and redraws all particles
 function animateParticles() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas
+    ctx.clearRect(0, 0, canvas.width, canvas.height); 
     particles.forEach(particle => {
-        particle.update(); // Update position
-        particle.draw();   // Draw particle
+        particle.update(); 
+        particle.draw();   
     });
     requestAnimationFrame(animateParticles); // Loop the animation
 }
