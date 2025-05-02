@@ -31,10 +31,10 @@ The site is composed of the following sections, each designed with clear layout 
 - JavaScript – Adds interactivity like alert modals, custom background, and dynamic content.
 
 ## 📚 External Libraries & Resources
-- [Bootstrap 5](#https://getbootstrap.com/) – For responsive layout and components.
-- [Bootstrap Icons](#https://icons.getbootstrap.com/) – For visual clarity and iconography.
-- [SweetAlert2](#https://sweetalert2.github.io/) – For stylish popup modals and alerts.
-- [Google Fonts](#https://fonts.google.com/) – For customized typography.
+- [Bootstrap 5](https://getbootstrap.com/) – For responsive layout and components.
+- [Bootstrap Icons](https://icons.getbootstrap.com/) – For visual clarity and iconography.
+- [SweetAlert2](https://sweetalert2.github.io/) – For stylish popup modals and alerts.
+- [Google Fonts](https://fonts.google.com/) – For customized typography.
 
 ## 💡 How to Run
 1. Clone or download the repository.
