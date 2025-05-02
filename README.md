@@ -45,7 +45,7 @@ The site is composed of the following sections, each designed with clear layout 
 Have ideas, feedback, or want to collaborate?
 - Feel free to fork this repository and submit a pull request with suggestions, improvements, or fixes.
 - You can also open an issue for bugs, enhancement ideas, or layout feedback.
-- Use the contact form on the website or connect with me via the social media links provided there. <br/>
+- Use the contact form on the website or connect with me via the social media links provided there. <br/><br/>
 Whether it’s refining the layout, optimizing performance, or suggesting a new feature — your contributions are welcome and appreciated!
 
 ## 🙋‍♀️ Author
