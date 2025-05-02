@@ -49,6 +49,6 @@ Have ideas, feedback, or want to collaborate? Whether you’re looking to improv
 
 ## 🙋‍♀️ Author
 Pia Eunice Joi M. Caibigan <br/>
-2nd Year BS Information Technology Student <br/>
+2nd-Year BS Information Technology Student | National University - Lipa<br/>
 📧 Email: caibiganpm@students.nu-lipa.edu.ph | caibiganpia@gmail.com <br/>
 🌐 Personal Website: https://piaeunice.github.io/personalweb/
