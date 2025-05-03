@@ -45,7 +45,7 @@ The site is composed of the following sections, each designed with clear layout 
 Have ideas, feedback, or want to collaborate? Whether you’re looking to improve the layout, optimize performance, or suggest a new feature, your contributions are welcome and appreciated!
 - Feel free to fork this repository and submit a pull request with suggestions, improvements, or fixes.
 - You can also open an issue for bugs, enhancement ideas, or layout feedback.
-- Use the contact form on the website or connect with me via the social media links provided there.
+- Connect with me through the social media links available on the website.
 
 ## 🙋‍♀️ Author
 Pia Eunice Joi M. Caibigan <br/>
