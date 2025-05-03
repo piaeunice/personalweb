@@ -42,7 +42,8 @@ The site is composed of the following sections, each designed with clear layout 
 3. No backend or server setup needed — this is fully front-end.
 
 ## 🤝 Contributing
-Have ideas or feedback? Want to collaborate? You're welcome to:
+Have ideas or feedback? Want to collaborate? <br/>
+You're welcome to:
 - Fork this repo and submit a pull request.
 - Open an issue for bugs or feature suggestions.  
 - Connect with me via social links provided on the website.
