@@ -1,16 +1,19 @@
-// SweetAlert2 Form Submission
-document.getElementById('contact').addEventListener('submit', function (e) {
-    e.preventDefault(); // Prevent actual form submission
-
-    Swal.fire({
-        title: 'Message Sent!',
-        text: 'Your message has been successfully sent.',
-        icon: 'success',
-        confirmButtonColor: '#BE5985',
-        confirmButtonText: 'OK'
-    }).then(() => {
-        clearContactForm(); // Clear form after confirmation
-    });
+document.getElementById('contactForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    const form = document.getElementById('contactForm');
+    if (form.checkValidity()) {
+        clearContactForm();
+        Swal.fire({
+            title: 'Message Sent!',
+            text: 'Your message has been successfully sent.',
+            icon: 'success',
+            confirmButtonColor: '#BE5985',
+            confirmButtonText: 'OK'
+        });
+    } else {
+        form.classList.add('was-validated');
+        form.reportValidity();
+    }
 });
 
 function clearContactForm() {
