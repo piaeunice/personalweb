@@ -1,5 +1,5 @@
 # Hello World! 👋🌍 I am Pia Eunice Joi Caibigan.
-Welcome to my digital space! 💻🩷 This is a responsive, modern personal website built to reflect my identity as a second-Year BSIT student with a growing passion for technology, web development, and digital innovation. The website showcases my skills, projects, and written work, while offering a clean and accessible interface for visitors.
+Welcome to my digital space! 💻🩷 This is a responsive, modern personal website built to reflect my identity as a second-year BSIT student with a growing passion for technology, web development, and digital innovation. The website showcases my skills, projects, and written work, while offering a clean and accessible interface for visitors.
 
 ## 🚀 Purpose
 This website serves as a digital space to:
