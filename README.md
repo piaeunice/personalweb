@@ -11,12 +11,12 @@ This website serves as a digital space to:
 
 ## 🌐 Website Sections
 The site is composed of the following sections, each designed with clear layout and interactive features:
-1. Home: A brief overview introducing who I am as a student and aspiring web developer.
-2. About: More detailed information about my educational journey and certification in tech.
-3. Skills: A categorized presentation of the technologies, tools, and soft skills I’m developing.
-4. Projects: A visual and descriptive portfolio of sample works or development exercises.
-5. Blog: A collection of written pieces ranging from editorials to feature articles.
-6. Contact: A contact form and linked social media platforms for reaching out.
+1. **Home:** A brief overview introducing who I am as a student and aspiring web developer.
+2. **About:** More detailed information about my educational journey and certification in tech.
+3. **Skills:** A categorized presentation of the technologies, tools, and soft skills I’m developing.
+4. **Projects:** A visual and descriptive portfolio of sample works or development exercises.
+5. **Blog:** A collection of written pieces ranging from editorials to feature articles.
+6. **Contact:** A contact form and linked social media platforms for reaching out.
 
 ## 🌟 Key Features
 - Responsive layout using Bootstrap 5 for smooth viewing on all devices.
@@ -26,9 +26,9 @@ The site is composed of the following sections, each designed with clear layout 
 - Lightweight and modern design, enhanced with subtle animations and custom fonts.
 
 ## 🛠️ Technologies Used
-- HTML – Structures the website and organizes content into readable sections.
-- CSS – Adds layout, spacing, colors, and responsiveness across devices.
-- JavaScript – Adds interactivity like alert modals, custom background, and dynamic content.
+- **HTML** – Structures the website and organizes content into readable sections.
+- **CSS** – Adds layout, spacing, colors, and responsiveness across devices.
+- **JavaScript** – Adds interactivity like alert modals, custom background, and dynamic content.
 
 ## 📚 External Libraries & Resources
 - [Bootstrap 5](https://getbootstrap.com/) – For responsive layout and components.
@@ -38,17 +38,18 @@ The site is composed of the following sections, each designed with clear layout 
 
 ## 💡 How to Run
 1. Clone or download the repository.
-2. Open index.html in any modern web browser (Chrome, Edge, etc.).
+2. Open `index.html` in any modern web browser (Chrome, Edge, etc.).
 3. No backend or server setup needed — this is fully front-end.
 
 ## 🤝 Contributing
-Have ideas, feedback, or want to collaborate? Whether you’re looking to improve the layout, optimize performance, or suggest a new feature, your contributions are welcome and appreciated!
-- Feel free to fork this repository and submit a pull request with suggestions, improvements, or fixes.
-- You can also open an issue for bugs, enhancement ideas, or layout feedback.
-- Connect with me through the social media links available on the website.
+Have ideas or feedback? Want to collaborate? You're welcome to:
+- Fork this repo and submit a pull request.
+- Open an issue for bugs or feature suggestions.  
+- Connect with me via social links provided on the website.
 
 ## 🙋‍♀️ Author
-Pia Eunice Joi M. Caibigan <br/>
-Second-Year BS Information Technology Student | National University - Lipa<br/>
+**Pia Eunice Joi M. Caibigan** <br/>
+Second-Year BS Information Technology Student <br/>
+📍 National University - Lipa<br/>
 📧 Email: caibiganpm@students.nu-lipa.edu.ph | caibiganpia@gmail.com <br/>
 🌐 Personal Website: https://piaeunice.github.io/personalweb/
