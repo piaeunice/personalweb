@@ -16,7 +16,7 @@ The site is composed of the following sections, each designed with clear layout 
 3. **Skills:** A categorized presentation of the technologies, tools, and soft skills I’m developing.
 4. **Projects:** A visual and descriptive portfolio of sample works or development exercises.
 5. **Blog:** A collection of written pieces ranging from editorials to feature articles.
-6. **Contact:** A contact form and linked social media platforms for reaching out.
+6. **Contact:** A contact form and information for reaching out.
 
 ## 🌟 Key Features
 - Responsive layout using Bootstrap 5 for smooth viewing on all devices.
