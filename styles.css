@@ -311,10 +311,6 @@ section {
     text-transform: uppercase;
 }
 
-.home .text-white {
-    font-size: 1rem;
-}
-
 .home .social-icons {
     display: flex;
     gap: 20px;
@@ -451,10 +447,6 @@ section {
         width: 100%;
         padding: 10px;
         font-size: 1rem;
-    }
-
-    .home .text-white {
-        font-size: 0.9rem;
     }
 }
 
