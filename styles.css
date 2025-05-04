@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap'); /* Importing Poppins font from Google Fonts */
 
-/* BASE STYLES */
+/* Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ html, body {
     background: transparent;
 }
 
-/* HEADER STYLES */
+/* Header Styles*/
 header {
     width: 100%;
     height: 80px;
@@ -23,7 +23,6 @@ header {
     top: 0;
     z-index: 999;
     box-shadow: 0 2px 5px #1B1B1B;
-    background: rgba(10, 10, 10, 0.9); /* Semi-transparent header */
 }
 
 /* Header inner container */
@@ -53,7 +52,6 @@ header {
 /* Navbar styles */
 .navbar {
     background: #0A0A0A;
-    font-family: 'Poppins', sans-serif;
 }
 
 .navbar-brand {
@@ -79,7 +77,7 @@ header {
     position: relative;
     text-decoration: none;
     font-weight: 600;
-    color: white;
+    color: #FFFFFF;
     font-size: 1.1rem;
     transition: color 0.25s ease;
     display: inline-block; /* Ensure the link only takes the width of its content */
@@ -279,7 +277,7 @@ section {
 }
 
 
-/* HOME SECTION STYLES */
+/* Hero Section Styles */
 .home {
     min-height: 100vh;
     position: relative;
@@ -288,7 +286,6 @@ section {
     overflow: hidden;
     background: #0A0A0A;
     padding: 80px 0;
-    font-family: 'Poppins', sans-serif;
 }
 
 .home .text-content {
@@ -390,7 +387,7 @@ section {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    background: linear-gradient(90deg, transparent, #FFFFFF33, transparent);
     transition: 0.5s;
 }
 
@@ -424,7 +421,8 @@ section {
     object-fit: cover;
 }
 
-/* Responsive Design for Home Section */
+/* Responsive Design for Hero Section */
+/* Large Screens */
 @media (max-width: 1024px) {
     .home .circle-frame {
         width: 38vmin;
@@ -433,6 +431,7 @@ section {
     }
 }
 
+/* Small Screens */
 @media (max-width: 768px) {
     .home .main-title {
         font-size: 2.5rem;
@@ -458,6 +457,7 @@ section {
     }
 }
 
+/* Extra Small Screens */
 @media (max-width: 576px) {
     .home .welcome-text {
         font-size: 1.2rem;
@@ -482,17 +482,15 @@ section {
         font-size: 0.85rem;
     }
 }
-/* END HOME SECTION STYLES */
 
-
-/* Divider */
+/* Line Separator */
 .section-line {
     height: 2px;
     background-color: #F7CFD8;
 }
 
 
-/* ABOUT SECTION STYLES */
+/* About Section Styles */
 .about {
     min-height: 100vh;
     padding: 80px 0;
@@ -500,7 +498,6 @@ section {
     align-items: center;
     background: #0A0A0A;
     z-index: -1;
-    font-family: 'Poppins', sans-serif;
 }
 
 .about .text-content {
@@ -572,7 +569,7 @@ section {
 
 /* Card Styles for Education and Certification */
 .about .education-card, .about .certificate-card {
-    background: rgba(255, 255, 255, 0.05);
+    background: #FFFFFF0D;
     border: 2px solid #FFC1CC;
     width: 100%;
     max-width: 200px;
@@ -583,10 +580,9 @@ section {
 }
 
 .about .education-card:hover, .about .certificate-card:hover {
-    transform: scale(1.1); /* Scale up without affecting layout */
+    transform: scale(1.05); /* Scale up without affecting layout */
     box-shadow: 0 0 15px #FF9999;
     border-color: #FF9999;
-    z-index: 10; /* Ensure the hovered card appears above others */
 }
 
 .about .card-image {
@@ -615,7 +611,7 @@ section {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: #000000B3;
     padding: 10px;
     text-align: center;
     min-height: 56px; /* Fixed height to match Education cards */
@@ -638,10 +634,9 @@ section {
     right: 0;
     max-height: 0;
     overflow: hidden;
-    background: rgba(255, 255, 255, 0.05);
+    background: #FFFFFF0D;
     padding: 0 10px;
     transition: max-height 0.3s ease, padding 0.3s ease;
-    z-index: 5; /* Ensure description appears above other elements */
 }
 
 .about .education-card:hover .card-description, .about .certificate-card:hover .card-description {
@@ -816,16 +811,13 @@ section {
         min-height: 35px; /* Adjust height for very small screens */
     }
 }
-/* END ABOUT SECTION STYLES */
 
-
-/* SKILLS SECTION STYLES */
+/* Skills Section Styles */
 .skills {
     min-height: 100vh;
     padding: 50px 20px;
     background: #0A0A0A;
     z-index: -1;
-    font-family: 'Poppins', sans-serif;
 }
 
 .skills .main-title {
@@ -862,7 +854,7 @@ section {
 
 .bar {
     position: relative;
-    background: rgba(255, 255, 255, 0.05);
+    background: #FFFFFF0D;
     height: 20px;
     border-radius: 10px;
     overflow: hidden;
@@ -885,7 +877,7 @@ section {
     height: 100%;
     display: flex;
     align-items: center;
-    color: black;
+    color: #000000;
     text-shadow: 0 0 5px #FF9999;
 }
 
@@ -907,7 +899,7 @@ circle {
 }
 
 circle.background {
-    stroke: rgba(255, 255, 255, 0.05);
+    stroke: #FFFFFF0D;
 }
 
 circle.foreground {
@@ -946,7 +938,7 @@ circle.foreground {
 .skill-card {
     background: linear-gradient(to bottom, #FFC1CC, #FF9999);
     border: 2px solid #FFC1CC;
-    color: black;
+    color: #000000;
     padding: 15px 20px;
     border-radius: 10px;
     transition: 0.3s ease;
@@ -973,7 +965,7 @@ circle.foreground {
     height: 24px;
 }
 
-/* Responsive Design */
+/* Responsive Design for Skills Section */
 @media (min-width: 768px) and (max-width: 991px) {
     .skills {
         min-height: 100vh;
@@ -1147,10 +1139,8 @@ circle.foreground {
         font-size: 1.5rem;
     }
 }
-/* END SKILLS SECTION STYLES */
 
-
-/* PROJECTS SECTION STYLES */
+/* Projects Section Styles */
 .projects {
     min-height: 100vh;
     padding: 80px 0;
@@ -1158,7 +1148,6 @@ circle.foreground {
     align-items: center;
     background: #0A0A0A;
     z-index: -1;
-    font-family: 'Poppins', sans-serif;
 }
 
 .projects .welcome-text {
@@ -1185,7 +1174,7 @@ circle.foreground {
 
 .project-card {
     position: relative;
-    background: rgba(255, 255, 255, 0.05);
+    background: #FFFFFF0D;
     backdrop-filter: blur(8px);
     border: 2px solid #FFC1CC;
     border-radius: 10px;
@@ -1224,7 +1213,7 @@ circle.foreground {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    background: rgba(10, 10, 10, 0.7);
+    background: #0A0A0AB3;
     opacity: 0;
     transition: opacity 0.3s ease;
     text-align: center;
@@ -1253,7 +1242,7 @@ circle.foreground {
     line-height: 1.5;
 }
 
-/* Responsive Design */
+/* Responsive Design for Projects Section */
 @media (max-width: 1024px) {
     .project-card {
         height: 350px;
@@ -1342,10 +1331,8 @@ circle.foreground {
         transform: translateX(0);
     }
 }
-/* END PROJECTS SECTION STYLES */
 
-
-/* BLOG SECTION STYLES */
+/* Blog Section Styles */
 .blog {
     min-height: 100vh;
     padding: 80px 0;
@@ -1353,7 +1340,6 @@ circle.foreground {
     align-items: center;
     background: #0A0A0A;
     z-index: -1;
-    font-family: 'Poppins', sans-serif;
 }
 
 .blog .welcome-text {
@@ -1379,7 +1365,7 @@ circle.foreground {
 }
 
 .blog-card {
-    background: rgba(255, 255, 255, 0.05);
+    background: #FFFFFF0D;
     backdrop-filter: blur(8px);
     border: 2px solid #FFC1CC;
     border-radius: 10px;
@@ -1471,7 +1457,7 @@ circle.foreground {
     text-shadow: 0 0 10px #FF9999;
 }
 
-/* Responsive Design */
+/* Responsive Design for Blog Section */
 @media (max-width: 1024px) {
     .blog-card {
         height: 450px;
@@ -1600,10 +1586,8 @@ circle.foreground {
         font-size: 0.7rem;
     }
 }
-/* END BLOG SECTION STYLES */
 
-
-/* CONTACT SECTION STYLES */
+/* Contact Section Styles */
 .contact {
     min-height: 100vh;
     padding: 80px 0;
@@ -1611,7 +1595,6 @@ circle.foreground {
     align-items: center;
     background: #0A0A0A;
     z-index: -1;
-    font-family: 'Poppins', sans-serif;
 }
 
 .contact .welcome-text {
@@ -1638,7 +1621,7 @@ circle.foreground {
 }
 
 .info-card {
-    background: rgba(255, 255, 255, 0.05);
+    background: #FFFFFF0D;
     backdrop-filter: blur(8px);
     border: 2px solid #FFC1CC;
     border-radius: 10px;
@@ -1681,7 +1664,7 @@ circle.foreground {
 
 /* Form Panel (Right) */
 .form-panel {
-    background: rgba(255, 255, 255, 0.03);
+    background: #FFFFFF08;
     border: 2px solid #FFC1CC;
     border-radius: 12px;
     animation: fadeInRight 1.5s ease-out;
@@ -1757,7 +1740,7 @@ circle.foreground {
     box-shadow: 0 0 15px #FFC1CC;
 }
 
-/* Responsive Design */
+/* Responsive Design for Contact Section */
 @media (max-width: 768px) {
     .contact .main-title {
         font-size: 2.5rem;
@@ -1840,16 +1823,14 @@ circle.foreground {
         transform: translateX(0);
     }
 }
-/* END CONTACT SECTION STYLES */
 
-
-/* FOOTER STYLES */
+/* Footer Styles */
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px 0;
-    color: white;
+    color: #FFFFFF;
     background-color: #0A0A0A;
     font-size: 0.9rem;
     position: relative;
